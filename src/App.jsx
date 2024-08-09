@@ -130,7 +130,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-center">
+      <div className="flex flex-col md:flex-row justify-center gap-3">
         {data?.map((option, index) => (
           <Card optionNumber={option.number} src={option.src} optionName={option.optionName} key={index} />
         ))}
