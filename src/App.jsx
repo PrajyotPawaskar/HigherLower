@@ -130,7 +130,7 @@ function App() {
 
   return (
     <>
-      <div className="card-container">
+      <div className="flex flex-col md:flex-row justify-center">
         {data?.map((option, index) => (
           <Card optionNumber={option.number} src={option.src} optionName={option.optionName} key={index} />
         ))}
